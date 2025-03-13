@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="styles.css">
+    <script src="scrypt.js"></script>
+    <title> Limba și literatura </title>
+</head>
+
+<body>
+    <header>
+        <h1>LIMBA ȘI LITERATURA ROMÂNĂ </h1>
+    </header>
+    <nav>
+        <ul>
+            <li id="nav-limba"><a href="#limba-section" data-section="limba-section">Limba română</a></li>
+            <li id="nav-litera"><a href="#litera-section" data-section="litera-section">Literatura română</a></li>
+            <li id="nav-home"><a href="#home-section" data-section="home-section">Home</a></li>
+            <li id="nav-register"><a href="#register-section" data-section="register-section">Register</a></li>
+            <li id="nav-about"><a href="#about-section" data-section="about-section">About</a></li>
+            
+        </ul>
+    </nav>
+    <main>
+        <section id="home-section">
+            <form id="home-form">
+                <h2>Sign Up</h2>
+                <label for="username">User (email)</label>
+                <input type="email" id="username" name="username" required>
+                <label for="password">Password</label>
+                <input type="password" id="password" name="password" required>
+                <button type="submit">Sign Up</button>
+            </form>
+
+        </section>
+        <section id="content-home">
+            <p>Bine ati venit!!!!</p>
+            <button id="logout"></button>
+        </section>
+        <section id="register-section">
+            <form>
+                <h3>Register form</h3>
+                <label for="name">Nume</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="surname">Prenume</label>
+                <input type="text" id="surname" name="surname" required>
+
+                <label for="clasa">Clasa</label>
+                <input type="number" id="clasa" name="clasa" required>
+
+                <label for="username">Email</label>
+                <input type="email" id="username" name="username" required>
+
+                <label for="password">Password</label>
+                <input type="password" id="password" name="password" required>
+
+                <label for="check-password">Password</label>
+                <input type="password" id="check-password" name="check-password" required>
+
+            </form>
+        </section>
+        <section id="about-section">
+            <form>
+                <h4>About this page </h4>
+                <p>Aici va fi informatia despre aceasta pagina</p>
+            </form>
+        </section>
+        <section id="limba-section">
+            <nav>
+                <ul>
+                    <li ><a href="#" data-section="clasa-5"><img src="limba-romana.webp" alt="Clasa 5" width="100">
+                        <p>Clasa 5</p>
+                    </a>
+                    <li><a href="#" data-section="clasa-6"><img src="limba-romana.webp" alt="Clasa 6" width="100">
+                        <p>Clasa 6</p>
+                    </a>
+                    <li><a href="#" data-section="clasa-7"><img src="limba-romana.webp" alt="Clasa 7" width="100">
+                        <p>Clasa 7</p>
+                    </a>
+                    <li><a href="#" data-section="clasa-8"><img src="limba-romana.webp" alt="Clasa 8" width="100">
+                        <p>Clasa 8</p>
+                        <li><a href="#" data-section="clasa-9"><img src="limba-romana.webp" alt="Clasa 9" width="100">
+                            <p>Clasa 9</p>
+                        </a>
+                        <li><a href="#" data-section="clasa-10"><img src="limba-romana.webp" alt="Clasa 10" width="100">
+                            <p>Clasa 10</p>
+                        </a>
+                        <li><a href="#" data-section="clasa-11"><img src="limba-romana.webp" alt="Clasa 11" width="100">
+                            <p>Clasa 11</p>
+                    </a>
+                </li>
+                </ul>
+            </nav>
+
+        </section>
+        <section id="clasa-5" class="content-section">
+            <h5>MATERIALE</h5>
+            <nav>
+                <ul>
+                    <li><a href="#" data-section="gramatica-section"><img src="gramatica.jpg" alt="Gramatica" width="100">
+                        <p>Gramatica</p>
+                    </a>
+                </li>
+                </ul>
+            </nav>
+        </section>
+        <section id="gramatica-section">
+            <h6> GRAMATICA </h6>
+            <nav>
+                <ul>
+                    <li><a href="#" data-section="fonetica-section">FONETICA</a></li>
+                    <ul>
+                        <li><a href="alfabet.pdf" target="_blank" download>Alfabetul</a></li>
+                        <li><a href="#" data-section="sunete">Sunetele</a></li>
+                        <li><a href="#" data-section="silabe">Silabele</a></li>
+                    </ul>
+                </ul>
+            </nav>
+        </section>
+    </main>
+    <footer>
+        <p>CERNOVA VIORIKA</p>
+        <p>Profesoară de Limba și Literatura română</p>
+        <p>Instituția de Învățământ Mediu General din Dumitrești</p>
+    </footer>
+</body>
+
+</html>
